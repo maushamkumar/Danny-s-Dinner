@@ -114,8 +114,8 @@ select customer_id, product_name, order_date
 
 -- Question 4:
 -- What is the most purchased item on the menu and how many times it was purchased by all customers?
--- I used the joined tables 'sales' and 'menu'
 
+-- I used the joined tables 'sales' and 'menu'
 select customer_id, product_name
 from sales
 inner join menu
